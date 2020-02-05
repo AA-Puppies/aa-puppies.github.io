@@ -1,0 +1,13 @@
+.body {
+    background-color: peachpuff;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+}
+
+.image-item {
+    height: 5px;
+}
