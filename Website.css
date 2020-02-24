@@ -1,13 +1,26 @@
-.body {
-    background-color: peachpuff;
+body {
+    background-color: papayawhip;
 }
+
+.container {
+    background-color: papayawhip;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    max-width: 2000px;
+    min-width: 100px;
+    padding: 5px;
+}
+
 
 .images {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 2000px;
 }
 
 .image-item {
-    height: 5px;
+    height: 20px;
 }
