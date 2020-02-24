@@ -1,6 +1,5 @@
 body {
     background-color: papayawhip;
-    width: 1500px;
     height: fit-content;
     padding: 20px 20px 20px 20px;
     margin: 0 auto;
@@ -10,6 +9,8 @@ body {
 html {
     background-color: cornsilk;
     margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1 {
@@ -19,9 +20,14 @@ h1 {
     text-align: center;
 }
 
-.images {
+section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+}
+
+figure {
+    display: flex;
+    flex: 200px;
+    flex-direction: row;
+    justify-content: space-between;
 }
