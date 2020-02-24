@@ -1,6 +1,5 @@
 body {
     background-color: papayawhip;
-    height: fit-content;
     padding: 20px 20px 20px 20px;
     margin: 0 auto;
 }
@@ -12,7 +11,6 @@ html {
     margin-right: 50px;
     color: brown;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
 }
 
 h1 {
@@ -58,11 +56,12 @@ article {
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
-    font-style: normal;
+    font-weight: bold;
 }
 
 #link:hover {
     color: tomato;
+    font-weight: bolder;
 }
 
 p {
@@ -72,6 +71,7 @@ p {
     margin: 0 auto;
     max-width: 700px;
     padding: 6px;
+    font-weight: normal;
 }
 
 #intro {

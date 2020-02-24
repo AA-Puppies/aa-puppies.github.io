@@ -1,0 +1,25 @@
+body {
+    background-color: papayawhip;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: cornsilk;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  
+.images {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 700px;
+}
+
