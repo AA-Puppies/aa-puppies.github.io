@@ -1,10 +1,13 @@
-body {
+html {
     background-color: papayawhip;
-    font-family: 'Indie Flower', ;
+    margin: 50px;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: brown;
+    text-align: center;
 }
 
 .container {
