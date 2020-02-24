@@ -28,6 +28,12 @@ h1 {
     margin: 0 auto;
 }
 
+img:hover {
+    border: tomato 4px solid;
+    border-radius: 0.25rem;
+    padding: 2px;
+}
+
 figure {
     display: flex;
     flex: 100px;
