@@ -12,10 +12,40 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+    font-size: 37pt;
+    text-align: center;
+    font-style: normal;
+}
+
+p {
+    font-size: 12pt;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 6px;
+    font-weight: normal;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .images {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1500px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 auto;
+}
+
+figure {
+    display: flex;
+    flex: 50px;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
 }
