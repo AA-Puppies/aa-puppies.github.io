@@ -16,6 +16,9 @@ h1 {
     font-size: 40pt;
     text-align: center;
     font-style: normal;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 img:hover {
@@ -41,6 +44,19 @@ figure {
     align-content: center;
 }
 
+#link {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+#link:hover {
+    color: tomato;
+    font-weight: bolder;
+}
+
 .links {
     text-align: center;
     display: flex;
@@ -57,18 +73,6 @@ article {
     padding: 0 auto;
 }
 
-#link {
-    margin-top: 20px;
-    font-size: 14pt;
-    text-align: center;
-    font-weight: bold;
-}
-
-#link:hover {
-    color: tomato;
-    font-weight: bolder;
-}
-
 p {
     font-size: 12pt;
     text-align: center;
@@ -81,4 +85,23 @@ p {
 
 #intro {
     margin-top: 20px;
+}
+
+em {
+    font-weight: bolder;
+    font-style: normal;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 auto;
+    background-color: cornsilk;
+}
+
+#footer {
+    font-style: normal;
+    font-size: 10pt;
 }
