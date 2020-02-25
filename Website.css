@@ -13,7 +13,8 @@ html {
 }
 
 h1 {
-    font-size: 40pt;
+    font-size-adjust: none;
+    font-size: 37pt;
     text-align: center;
     font-style: normal;
     padding: 0 auto;
@@ -68,6 +69,27 @@ figure {
     max-width: 550px;
 }
 
+a {
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: brown;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 550px;
+    flex: 500px;
+    text-decoration: none;
+}
+
+
 article {
     flex: 100px;
     padding: 0 auto;
@@ -97,7 +119,6 @@ footer {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 0 auto;
     background-color: cornsilk;
 }
 
