@@ -45,7 +45,7 @@ figure {
     align-content: center;
 }
 
-#link {
+#link-pics, #link-news, #link-types {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 14pt;
@@ -53,7 +53,7 @@ figure {
     font-weight: bold;
 }
 
-#link:hover {
+#link-pics:hover, #link-news:hover, #link-types:hover{
     color: tomato;
     font-weight: bolder;
 }
