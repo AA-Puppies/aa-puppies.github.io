@@ -22,10 +22,17 @@ h1 {
     margin-bottom: 20px;
 }
 
-img:hover {
+img {
+    width: 100%;
+}
+
+#image-item:hover, #image-item2:hover, #image-item3:hover {
     border: tomato 4px solid;
     border-radius: 0.25rem;
-    padding: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .container {
@@ -45,7 +52,7 @@ figure {
     align-content: center;
 }
 
-#link-pics, #link-news, #link-types {
+#link-pics, #link-news, #link-types, #link-home {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 14pt;
@@ -53,7 +60,7 @@ figure {
     font-weight: bold;
 }
 
-#link-pics:hover, #link-news:hover, #link-types:hover{
+#link-pics:hover, #link-news:hover, #link-types:hover, #link-home:hover {
     color: tomato;
     font-weight: bolder;
 }
@@ -95,7 +102,7 @@ article {
     padding: 0 auto;
 }
 
-p {
+.intro {
     font-size: 12pt;
     text-align: center;
     justify-content: center;
@@ -126,3 +133,32 @@ footer {
     font-style: normal;
     font-size: 10pt;
 }
+
+#choc-lab {
+    width: 400px;
+    padding-left: 5%;
+    padding-right: 2.5%;
+
+}
+
+#buy-lab {
+    width: 400px;
+    padding-right: 5%;
+    padding-left: 2.5%;
+}
+
+.purchase-lab {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.purchase-lab-article {
+    text-align: left;
+}
+
+
