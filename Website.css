@@ -152,11 +152,10 @@ footer {
 }
 
 #buy-lab {
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding-top: 6px;
+    padding-bottom: 6px;
     margin: 0%;
     max-width: 400px;
-    border: red solid 5px;
     justify-content: center;
     align-content: center;
 }
@@ -171,16 +170,14 @@ footer {
     justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
-    border: solid black 6px;
 }
 
 .purchase-lab-article {
-    border: springgreen solid 3px;
+    min-width: 250px;
+    max-width: 400px;
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
     margin-left: 2%;
     margin-right: 2%;
       
