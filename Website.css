@@ -149,6 +149,7 @@ footer {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2.5%;
+    padding-top: 2.5%;
 }
 
 
@@ -157,8 +158,6 @@ footer {
     padding-bottom: 6px;
     margin: 0%;
     max-width: 400px;
-    justify-content: center;
-    align-content: center;
 }
 
 .purchase-lab, .purchase-husky, .unicorn-pup, .super-bowl {
@@ -177,8 +176,6 @@ footer {
     min-width: 250px;
     max-width: 400px;
     justify-content: center;
-    align-content: center;
-    align-items: center;
     margin-left: 2%;
     margin-right: 2%;     
 }
