@@ -144,21 +144,15 @@ footer {
     text-align: center;
 }
 
-#choc-lab {
+#choc-lab, #husky-pup, #unicorn, #puppy-bowl {
     max-width: 400px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2.5%;
 }
 
-#husky-pup {
-    max-width: 400px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 6px;
-}
 
-#buy-lab, .husky-para {
+#buy-lab, .husky-para, .unicorn-para, .super-bowl-para {
     padding-top: 6px;
     padding-bottom: 6px;
     margin: 0%;
@@ -167,7 +161,7 @@ footer {
     align-content: center;
 }
 
-.purchase-lab, .purchase-husky {
+.purchase-lab, .purchase-husky, .unicorn-pup, .super-bowl {
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +173,7 @@ footer {
     margin-right: 15%;
 }
 
-.purchase-lab-article, .purchase-husky-article {
+.purchase-lab-article, .purchase-husky-article, .unicorn-pup-article, .super-bowl-article {
     min-width: 250px;
     max-width: 400px;
     justify-content: center;
@@ -189,4 +183,6 @@ footer {
     margin-right: 2%;     
 }
 
-
+#news-heading {
+    padding-top: 5%;
+}
