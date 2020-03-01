@@ -145,13 +145,20 @@ footer {
 }
 
 #choc-lab {
-    width: 400px;
+    max-width: 400px;
     padding-left: 5%;
     padding-right: 5%;
-
+    padding-bottom: 2.5%;
 }
 
-#buy-lab {
+#husky-pup {
+    max-width: 400px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 6px;
+}
+
+#buy-lab, .husky-para {
     padding-top: 6px;
     padding-bottom: 6px;
     margin: 0%;
@@ -160,7 +167,7 @@ footer {
     align-content: center;
 }
 
-.purchase-lab {
+.purchase-lab, .purchase-husky {
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -172,14 +179,14 @@ footer {
     margin-right: 15%;
 }
 
-.purchase-lab-article {
+.purchase-lab-article, .purchase-husky-article {
     min-width: 250px;
     max-width: 400px;
     justify-content: center;
     align-content: center;
     align-items: center;
     margin-left: 2%;
-    margin-right: 2%;
-      
+    margin-right: 2%;     
 }
+
 
