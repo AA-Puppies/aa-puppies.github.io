@@ -12,6 +12,12 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+em {
+    font-weight: bolder;
+    font-style: normal;
+}
+
 h1 {
     font-size: 37pt;
     text-align: center;
@@ -82,7 +88,12 @@ p {
 
 #description {
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#direction {
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .images {

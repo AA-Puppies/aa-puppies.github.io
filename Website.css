@@ -131,8 +131,8 @@ em {
 footer {
     margin-top: 20px;
     margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
     background-color: cornsilk;
 }
 
@@ -142,6 +142,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 #choc-lab, #husky-pup, #unicorn, #puppy-bowl {
@@ -181,5 +182,9 @@ footer {
 }
 
 #news-heading {
-    padding-top: 5%;
+    margin-top: 5%;
+}
+
+#purchase-heading, #news-heading {
+    background-color: cornsilk;
 }
